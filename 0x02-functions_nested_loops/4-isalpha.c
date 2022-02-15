@@ -2,7 +2,7 @@
 /**
  *_isalpha - function
  *@al: variable of the function
- *Return si es mayus retorna 1 si es minus retorna 0
+ *Return:si es mayus retorna 1 si es minus retorna 0
  */
 int _isalpha(int al)
 {
