@@ -2,7 +2,7 @@
 /**
  *_islower - Es lA que estamos utilizando
  *@c: la variable que corre la funcion
- *
+ *Return: 0 para que nos retorne 0
  */
 int _islower(int c)
 {
