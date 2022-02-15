@@ -4,7 +4,7 @@
  *@t: integer argument
  *Return: last digit of number
  */
-int print_last_digit(int t);
+int print_last_digit(int t)
 {
 	if (t < 0)
 		t *= -1;
