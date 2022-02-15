@@ -6,7 +6,6 @@
  */
 int _isalpha(int al)
 {
-
 if (al >= 'a' && al <= 'z')
 {
 return (1);
