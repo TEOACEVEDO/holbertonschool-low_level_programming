@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * times_table - muestra la tabla de multiplicacion
- * 
- * 
+ *
+ *
  */
 void times_table(void)
 {
