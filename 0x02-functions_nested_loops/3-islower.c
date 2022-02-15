@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_islower - Es lA que estamos utilizando
- *@a: la variable que corre la funcion
+ *@c: la variable que corre la funcion
  *
  */
 int _islower(int c)
