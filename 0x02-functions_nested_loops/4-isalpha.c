@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ *_isalpha - function
+ *@al: variable of the function
+ *Return si es mayus retorna 1 si es minus retorna 0
  */
 int _isalpha(int al)
 {
