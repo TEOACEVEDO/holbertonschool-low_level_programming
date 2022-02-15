@@ -7,5 +7,5 @@
  */
 int add(int perrito, int gatico)
 {
-    return (perrito + gatico);
+return (perrito + gatico);
 }
