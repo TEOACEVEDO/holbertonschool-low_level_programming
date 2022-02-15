@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * print_to_98 - print numbers n to 98
  * @n: integer argument
