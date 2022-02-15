@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ *print_sign - function
+ *@al: variable of the function
+ *Return: Todo depende de la funcion
  */
 int print_sign(int n);
 {
@@ -24,4 +24,3 @@ return (0);
 }
 _putchar('\n') 
 }
-
