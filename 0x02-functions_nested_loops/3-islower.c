@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ *_islower - Es lA que estamos utilizando
+ *@a: la variable que corre la funcion
+ * 
  */
 int _islower(int c)
 {
