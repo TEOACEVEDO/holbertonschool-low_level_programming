@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_diagonal - dibuja una linea diagonal
-* @n: variable 
+* @n: variable
 */
 void print_diagonal(int n)
 {
@@ -23,5 +23,5 @@ void print_diagonal(int n)
 				_putchar(' ');
 			}
 		}
-	}
+}
 }
