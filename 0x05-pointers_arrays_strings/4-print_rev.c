@@ -17,7 +17,7 @@ s++;
 s--;
 for (r = longitud; r > 0; r--)
 {
-_putchar(s);
+_putchar(*s);
 s--;
 }
 
