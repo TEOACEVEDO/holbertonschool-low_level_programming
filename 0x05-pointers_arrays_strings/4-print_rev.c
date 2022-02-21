@@ -9,7 +9,7 @@ void print_rev(char *s)
 int longitud = 0;
 int r;
 
-while (s != '\0')
+while (*s != '\0')
 {
 longitud++;
 s++;
