@@ -3,7 +3,6 @@
 /**
 * _puts - prototipo para la cadena
 * @str: es la variable de entrada
-* Return: 0
 */
 void _puts(char *str)
 {
