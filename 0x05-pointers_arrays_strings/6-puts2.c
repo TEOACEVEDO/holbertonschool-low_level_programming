@@ -8,7 +8,7 @@ void puts2(char *str)
 {
     int len = 0;
     int l = 0;
-    char y = str;
+    char y = *str;
     int z;
 
     while (y != '\0')
@@ -21,7 +21,7 @@ void puts2(char *str)
     {
         if (z % 2 == 0)
         {
-            _putchar(str[z]);
+            _putchar(*str[z]);
         }
     }
     _putchar('\n');
