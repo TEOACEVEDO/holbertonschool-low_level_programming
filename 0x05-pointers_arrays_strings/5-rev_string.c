@@ -17,3 +17,4 @@ rev = s[i];
 s[i] = s[counter];
 s[counter] = rev;
 }
+}
