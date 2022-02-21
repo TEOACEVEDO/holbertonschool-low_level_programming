@@ -5,11 +5,17 @@
 * @s: es la variable de entrada
 */
 void print_rev(char *s)
+
 {
+int r;
+int longitud = 0;
 
 while (*s != '\0')
 {
-_putchar(*s--);
+longitud++;
+s++;
 }
+for (r = longitud; r > 0; r--)
+_putchar(r--);
 _putchar('\n');
 }
