@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* puts2 - nos muestre caracteres que sean numeros enteros haciendo % 2
+* puts_half - nos muestre caracteres que sean numeros enteros haciendo % 2
 * @str: Input string
 **/
 void puts_half(char *str)
