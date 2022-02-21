@@ -6,20 +6,20 @@
  */
 void print_rev(char *s);
 {
-        int longitud = 0;
-        int r;
+int longitud = 0;
+int r;
 
-        while (s != '\0')
-        {
-                longitud++;
-                s++;
-        }
-        s--;
-        for (r = longitud; r > 0; r--)
-        {
-                _putchar(s);
-                s--;
-        }
+while (s != '\0')
+{
+longitud++;
+s++;
+}
+s--;
+for (r = longitud; r > 0; r--)
+{
+_putchar(s);
+s--;
+}
 
-        _putchar('\n');
+_putchar('\n');
 }
