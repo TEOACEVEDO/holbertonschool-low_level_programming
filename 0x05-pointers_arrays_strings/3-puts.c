@@ -14,6 +14,6 @@ while (*str != '\0')
 longitud++;
 str++;
 }
-puts (*str);
-puts ('\n');
+_puts (*str);
+_puts ('\n');
 }
