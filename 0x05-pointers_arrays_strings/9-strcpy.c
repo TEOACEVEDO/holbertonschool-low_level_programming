@@ -3,7 +3,7 @@
  *_strcpy - update value.
  *@dest: value to be evaluate.
  *@src: value to be evaluate.
- *retur: no hay
+ *return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
