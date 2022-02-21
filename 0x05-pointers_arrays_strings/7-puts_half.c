@@ -11,7 +11,7 @@ int i, n, len;
 len = 0;
 
 for (i = 0; str[i] != '\0'; i++)
-        len++;
+len++;
 
 n = (len / 2);
 
