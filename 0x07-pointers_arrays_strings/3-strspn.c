@@ -12,7 +12,7 @@ int r;
 while (*s)
 {
 for (r = 0; accept[r]; r++)
-                {
+{
 if (*s == accept[r])
 {
 n++;
