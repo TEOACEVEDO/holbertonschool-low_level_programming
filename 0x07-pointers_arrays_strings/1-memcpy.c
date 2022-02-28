@@ -8,7 +8,7 @@
  *Return: changed array with new value for n bytes
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
-{	
+{
 	int t = n;
 	int y = 0;
 for (; y < t; y++)
