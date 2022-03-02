@@ -6,7 +6,6 @@
  * Return: length of string
  */
 int _strlen_recursion(char *s)
-	int gitud = 0;
 {
 	if(!s || !*s)
 	return 0;
