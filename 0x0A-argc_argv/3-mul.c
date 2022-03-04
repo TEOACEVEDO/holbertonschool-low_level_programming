@@ -10,16 +10,16 @@ int main(int argc, char *argv[])
 {
 	int t, a, result;
 
-if(argc != 3)
-{	
+if (argc != 3)
+{
 printf("error\n");
 return (1);
-}	
+}
 /* atoi sirve para convertir una string a un int */
-else
 t = atoi(argv[1]);
 a = atoi(argv[2]);
 result = t * a;
+
 printf("%d\n", result);
 return (0);
 }
