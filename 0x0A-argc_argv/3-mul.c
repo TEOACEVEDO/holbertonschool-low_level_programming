@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdilib.h>
 /**
  *main - multiply two numbers
  * @argc: arguement count
