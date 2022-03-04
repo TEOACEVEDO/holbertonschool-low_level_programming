@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 /**
  *main - multiply two numbers
  * @argc: arguement count
@@ -9,7 +10,7 @@ int main(int argc, char *argv[])
 {
 	int t, a, result;
 
-if(argc < 2)
+if(argc != 3)
 {	
 printf("error\n");
 return (1);
