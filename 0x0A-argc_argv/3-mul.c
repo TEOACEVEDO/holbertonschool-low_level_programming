@@ -1,24 +1,24 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
- *main - multiply two numbers
+ * main - multiply two numbers
  * @argc: arguement count
  * @argv: array of pointers to arguement strings
  * Return: result of multiplication or 1
- */
+ **/
 int main(int argc, char *argv[])
 {
-	int t, a, xxx;
+	int a, b, result;
 
-if (argc != 3)
-{
-printf("error\n");
-return (1);
-}
-/* atoi sirve para convertir una string a un int */
-t = atoi(argv[1]);
-a = atoi(argv[2]);
-xxx = t * a;
-printf("%d\n", xxx);
-return (0);
+	if (argc <= 2)
+	{
+		printf("Error\n");
+		return (1);
+	}
+/* atoi convert a string to an int */
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	result = a * b;
+	printf("%d\n", result);
+	return (0);
 }
