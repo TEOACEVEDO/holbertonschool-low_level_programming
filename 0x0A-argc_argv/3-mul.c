@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int t, a;
+	int t, a, xxx;
 
 if (argc != 3)
 {
@@ -18,7 +18,7 @@ return (1);
 /* atoi sirve para convertir una string a un int */
 t = atoi(argv[1]);
 a = atoi(argv[2]);
-
-printf("%d\n", t *a);
+xxx = t * a;
+printf("%d\n", xxx);
 return (0);
 }
