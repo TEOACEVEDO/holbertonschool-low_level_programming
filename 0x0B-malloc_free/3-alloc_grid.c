@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 /**
  * alloc_grid - creates a 2d integer grid
