@@ -1,7 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *
+ * string_nconcat - concatenar 2 strings
+ * @s1: string 1
+ * @s2: string 2
+ * @n: es el limite de los bytes de s2
+ * return: la concatenacion 
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -21,7 +25,10 @@ if (s1 == NULL)
 		t++;
 	strDup = malloc(sizeof(char) * (s + t + 1));
 	if (strDup == NULL)
+	{
+		free(strDup);
 		return (NULL);
+	}
 	s = t = 0;
 	while (s1[s] != '\0')
 	{
