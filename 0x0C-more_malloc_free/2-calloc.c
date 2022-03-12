@@ -11,15 +11,15 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 unsigned int o;
 char *memoria;
 
-if(nmemb == 0 || size == 0)
+if (nmemb == 0 || size == 0)
 	return (NULL);
 memoria = malloc(size * nmemb);
-if(memoria == NULL)
+if (memoria == NULL)
 {
 	free(memoria);
-	return(NULL);
+	return (NULL);
 }
-for(o = 0; o < (nmemb * size); o++)
+for (o = 0; o < (nmemb * size); o++)
 	memoria[o] = 0;
 return (memoria);
 }
