@@ -25,10 +25,7 @@ char *strDup;
 		t++;
 	strDup = malloc(sizeof(char) * (s + n + 1));
 	if (strDup == NULL)
-	{
-		free(strDup);
 		return (NULL);
-	}
 	s = t = 0;
 	while (s1[s] != '\0')
 	{
