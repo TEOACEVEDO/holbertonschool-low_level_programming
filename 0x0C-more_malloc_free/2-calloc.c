@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *_calloc function to call memory
+ * *_calloc - function to call memory
  *@nmemb: entry
  *@size: size
  *Return: called memory in 0
