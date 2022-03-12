@@ -5,7 +5,7 @@
  * @s1: string 1
  * @s2: string 2
  * @n: es el limite de los bytes de s2
- * return: la concatenacion 
+ * return: la concatenacion
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -13,7 +13,7 @@ int s;
 unsigned int t;
 char *strDup;
 
-if (s1 == NULL)
+	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
