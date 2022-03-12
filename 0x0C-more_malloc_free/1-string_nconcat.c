@@ -23,7 +23,7 @@ char *strDup;
 
 	strDup = malloc(sizeof(char) * (s + n + 1));
 	if (strDup == NULL)
-	{	
+	{
 		free(strDup);
 		return (NULL);
 	}
