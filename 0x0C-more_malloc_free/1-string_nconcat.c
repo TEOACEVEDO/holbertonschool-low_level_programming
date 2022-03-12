@@ -23,7 +23,7 @@ char *strDup;
 
 	while (s2[t] != '\0')
 		t++;
-	strDup = malloc(sizeof(char) * (s + t + 1));
+	strDup = malloc(sizeof(char) * (s + n + 1));
 	if (strDup == NULL)
 	{
 		free(strDup);
