@@ -17,15 +17,16 @@ char *strDup;
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	s = t = 0;
+	s = 0;
 	while (s1[s] != '\0')
 		s++;
 
-	while (s2[t] != '\0')
-		t++;
 	strDup = malloc(sizeof(char) * (s + n + 1));
 	if (strDup == NULL)
+	{	
+		free(strDup);
 		return (NULL);
+	}
 	s = t = 0;
 	while (s1[s] != '\0')
 	{
