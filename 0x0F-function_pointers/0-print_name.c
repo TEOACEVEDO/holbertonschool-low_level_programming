@@ -1,5 +1,5 @@
 #include "function_pointers.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * print_name - execute a function given as a parameter
  * @name: parameter that function ptr needs
@@ -9,7 +9,7 @@ void print_name(char *name, void (*f)(char *))
 {
 	if (!name && !f)
 	{
-		;
+		return ;
 	}
 	f(name);
 }
