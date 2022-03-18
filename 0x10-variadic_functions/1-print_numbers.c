@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /*
- * print_numbers - prints out numbers given
+ * print_numbers - imprima los numeros dados
  * @separator: string to be seperated between numbers
  * @n: number of arguements
  * Return: nothing
