@@ -1,3 +1,1 @@
-# holbertonschool-low_level_programming
-# holbertonschool-low_level_programming
-# holbertonschool-low_level_programming
+Este repositorio contiene proyectos C y otros ejercicios de programación de bajo nivel
