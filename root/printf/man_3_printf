@@ -1,0 +1,49 @@
+.TH _PRINTF "18 March 2022" "_printf man page"
+.SH NAME
+_printf \- Print formated input
+.SH SYNOPSIS
+.B #include "main.h"
+.LP
+.B int printf(const char *, ...);
+.SH DESCRIPTION
+.B _printf()
+Takes any argument and prints it according to each format specified.
+.br
+Returns the numbers of characters printed (excluding the null byte at the end).
+.PP
+.B FORMAT:
+.br
+Use the operator % and add any option:
+.br
+%c - for printing a single character -
+.br
+%s - for printing a string -
+.br
+%i - for printing an integer -
+.br
+%d - for printing a decimal -
+.br
+%b - for printing an unsigned integer as a binary number -
+.br
+%u - for printing an unsigned integer -
+.SH SOME EXAMPLES
+To print:
+.PP
+.RS 3
+.B #include "main.h"
+.PP
+_printf("Hello Holberton");
+.B // the output will be 'Hello Holberton'
+.PP
+_printf("%c", 'H');
+.B // the ouput will be 'H'
+.PP
+_printf("%s", "Hello Holberton");
+.B // the output will be 'Hello Holberton'
+.RE
+.SH SEE ALSO
+putchar(3), printf(3)
+.SH BUGS
+No known bugs, so far.
+.SH AUTHOR
+Mateo Avecedo Velez, Santiago Alexander Osorno Osorno 
