@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * delete_nodeint_at_index - deletes the node at index 
+ * delete_nodeint_at_index - deletes the node at index
  * @head: head of the list
  * @index: emplacement of the node to delet
  * Return: pointr to head of list
