@@ -1,10 +1,10 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- *add_nodeint - adds a new node at the beginning of a listint_t list
- *@head: current place in list
- *@n: int to add to list
- *pointer current position
+ * add_nodeint - adds a new node at the beginning of a listint_t list
+ * @head: current place in list
+ * @n: int to add to list
+ * Return: pointer current position
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
