@@ -23,7 +23,7 @@ int main(int argc, char *av[])
 	if (ar2 < 0)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]), exit(99);
 
-	if ((read_1 = read(ar1, buffer_1, 1024)) > 0)
+	while ((read_1 = read(ar1, buffer_1, 1024)) > 0)
 	{
 		write_2 = write(ar2, buffer_1, read_1);
 		if (write_2 < 0)
