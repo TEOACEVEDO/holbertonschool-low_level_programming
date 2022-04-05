@@ -8,7 +8,7 @@
 
 int main(int argc, char *av[])
 {
-	int ar1, read_1, ar_2, write_2;
+	int ar1, read_1, ar2, write_2;
 	char buffer_1[1024];
 
 	if (argc != 3)
