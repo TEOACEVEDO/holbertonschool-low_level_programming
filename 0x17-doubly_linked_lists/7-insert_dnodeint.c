@@ -1,22 +1,53 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - a function that returns the nth node of a linked list
- * @head: head of the list
- * @index: which node to stop at
- * Return: pointer to the nth node
+ * *insert_dnodeint_at_index -  inserts a new node at a given position.
+ * @h: pointer to a pointer to the head of a list
+ * @idx: the index of the list where the new node should be added.
+ * @n: integer to be add to the list.
+ * Return: the address of the new node.
  */
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	unsigned int i;
+	dlistint_t *next, *sec, *actual = *h;
+	unsigned int i = 0;
 
-	i = 0;
-	while (i < index)
+	next = malloc(sizeof(dlistint_t));
+	if (!next)
+		return (NULL);
+	next->n = n;
+	next->next = NULL;
+	next->prev = NULL;
+	if (*h == NULL)
 	{
-		if (head->next == NULL)
-			return (NULL);
-		head = head->next;
+		*h = next;
+		return (next);
+	}
+	if (idx == 0)
+	{
+		(*h)->prev = next, next->next = *h, *h = next;
+		return (next);
+	}
+	while (actual != NULL)
+	{
+		if (i == idx)
+		{
+			sec = actual->prev;
+			actual->prev = next;
+			next->prev = sec;
+			next->next = actual;
+			sec->next = next;
+			return (next);
+		}
+		if (i + 1 == idx && actual->next == NULL)
+		{
+			actual->next = next;
+			next->prev = actual;
+			return (next);
+		}
+		actual = actual->next;
 		i++;
 	}
-	return (head);
+	return (NULL);
 }
+
